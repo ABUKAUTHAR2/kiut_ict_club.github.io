@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head><title>ict club members</title></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #132842;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width:33.33%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  height: 30%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  height: 500;
+  width: 100%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="color: azure;">ICT CLUB TEAM AND GALLARY</h1>
+<hr>
+
+<h2 style="color: aqua;">OUR TEAM</h2>
+<p style="color: antiquewhite;">Leaders and organizers</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column" style="height: 250px;">
+    <div class="content">
+      <img src="picture/team/abuu.jpeg" alt="Mountains" style="width:100%;">
+      <h3>ABUKAUTHAR VUNDE</h3>
+      <hr>
+      <p>CHAIR-PERSON ICT CBLU.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="picture/team/muba.jpeg" alt="Lights" style="width:100%">
+      <h3>MUBARIKIWA</h3><hr>
+      <p>vice chairperson ict club</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="picture/team/sik_.jpeg" alt="Lights" style="width:100%">
+      <h3>SIKJUNIOR MRIMI</h3><hr>
+      <p>PROGRAM MANAGER ICT CLUB.</p>
+    </div>
+  </div>
+  <div class="column" style="height: 300px">
+    <div class="content">
+    <img src="picture/team/AAliya.jpeg" alt="Lights" style="width:100%;;">
+      <h3>AAALIYA ABDURAHMAN</h3><hr>
+      <p>General secretary ict club</p>
+    </div>
+  </div>
+  <div class="column" style="height: 300px;">
+    <div class="content">
+    <img src="picture/team/hameec.jpeg" alt="Lights" style="width:100%">
+      <h3>HAMISI ISAMUYO</h3>
+      <hr>
+      <p>FUND RISING SPECIALIST</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="picture/team/tumain.jpeg" alt="Lights" style="width:100%">
+      <h3>TUMAINI EMMANUEL</h3>
+      <p>EVENT PLANNER</p><hr>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="picture/team/florah.jpeg" alt="Nature" style="width:100%">
+      <h3>FLORA MICHAEL</h3>
+      <p>VOLUNTEER CORDINATOR.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="picture/team/matmba.jpeg" alt="Mountains" style="width:100%">
+      <h3>HAPPY MATIMBA</h3>
+      <p>member of central cometee</p>
+    </div></div>
+    <div class="column">
+      <div class="content">
+      <img src="picture/team/habiba.jpg" alt="Mountains" style="width:100%">
+        <h3>HABIBA MACHELA</h3>
+        <p>member of central comitee.</p>
+      </div></div>
+<!-- END GRID -->
+</div>
+<h1 style="color: aqua;">OUR GALLARY</h1>
+<hr>
+<hr>
+<div class="content">
+  <div class="container" style="height: 45%; width: 100%;">
+    <div class="mySlides" style="height: ">
+      <div class="numbertext">1 / 10</div>
+      <img src="picture/gaallarey/a.JPG"style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 10</div>
+      <img src="picture/gaallarey/b.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 10</div>
+      <img src="picture/gaallarey/c.jpg" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 10</div>
+      <img src="picture/gaallarey/d.JPG" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 10</div>
+      <img src="picture/gaallarey/e.webp" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">6 / 10</div>
+      <img src="picture/gaallarey/f.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">7 / 10</div>
+      <img src="picture/gaallarey/ga.jpg" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">8 / 10</div>
+      <img src="picture/gaallarey/i.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">9 / 10</div>
+      <img src="picture/gaallarey/j.JPG" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">10 / 10</div>
+      <img src="picture/gaallarey/k.webp" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  <h3> click the arrow to see the next picture</h3>
+  
+</div>
+
+<!-- END MAIN -->
+</div>
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+</body>
+</html>
